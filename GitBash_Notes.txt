@@ -1,0 +1,40 @@
+Git - To be installed locally
+GitHub - online repository
+git initi cmd will initiate the git at that folder level
+git ignore 
+git add --all (adds all file to local repo)
+git status shows file status
+git commit -m "Initial msg"
+git remote add origin URLofTheGitHub/repo - this cmd connects to remote repository with that URL and I want you to link it to my local repo
+git push -u origin master - This cmd pushes the code from local repo to remote repo
+Always run git status after git push
+git add FileName will add only that file
+
+
+Git Bash
+ls - l  gives details view of the files and folders
+pwd - present working directory.
+echo - to print the messages, variable values etc. for e.g. echo $PATH to print path variable value
+which man - (man is expected to be a command)- this is to find out if man can be executed and is available in git bash
+cat - outputs the contents of a file on to the terminal
+less filename - paginates the file contents to be displayed on the screen
+touch filename - create the empty file
+mv oldFilename newFilename - moves old filename to new filename
+rm filename - removes the file
+touch filename - also updates the timestamp without changing the contents of file
+mkdir folderName / rmdir FolderName - make (create) folder / remove folder
+mkdir -p FolderName1/FolderName2/FolderNameN : To create multiple levels of folders in single command
+rm -r -f (or -rf) folderName - will remove multiple levels of folders within mentioned folderName (-r means recursive, -f means force)
+echo "msg" >> FileName - >> appends the text to mentioned file in FileName
+echo "msg" > FileName - > overwrites the text to the mentioned file in FileName
+ls -l > FileName - Here > passes teh output to file in FileName
+chmod +x FileName - changing the permissions on file mentioned in FileName
+
+.bashrc is a bash configuration file which can be used for configuration the bash for customization like it can have 
+alias ll='ls -l'
+alias npp='notepad++' if we have these two commands in .bashrc then its a shortcut for executable programs.
+** we need to run source .bashrc command after new bashrc file is created or modified.
+
+
+
+ 
